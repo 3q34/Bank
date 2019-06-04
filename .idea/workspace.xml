@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="IDEA整合github测试">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/META-INF/Bank.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking5_2/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking5_2/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking5_2/CheckingAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking5_2/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking5_2/SavingAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/CheckingAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/CustomerReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/SavingAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/banking6/TestBanking6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/Testbanking/TestBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/Testbanking2/TestBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/Testbanking3/TestBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/Testbanking4/TestBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking1/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking2/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking2/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking3/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking3/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking4/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking4/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking4/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day07/Kids.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day07/ManKind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/Anaimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/CheckAcount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/Creature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Graduate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/TestAnimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/TestInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Woman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day09/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day09/GeometricObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/day09/TestScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/According.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/According1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/BB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/CC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/DD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/HourlyEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/Mydate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/PayrollSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/SalariedEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/EcDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/EcmDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/TestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/TestMyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Flash.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/IWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Object.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/ObjectImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Person$Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Printer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/ProxyObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/StudentWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/StudentWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/SubTemplat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TeacherWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TeacherWorkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Templat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestCircle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestFactoryMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestTemplat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/USB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/Work.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/JubuInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/NoteBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/OuterClass$1InnnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/OuterClass$1MyComparable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/OuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Person$Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Person$Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking5_2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking5_2/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking5_2/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking5_2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking5_2/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/CustomerReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/SavingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banking6/TestBanking6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/Testbanking/TestBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/Testbanking2/TestBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/Testbanking3/TestBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/Testbanking4/TestBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking1/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking3/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking3/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking4/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking4/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06/banking4/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/Kids.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/ManKind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day08_07/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day08_07/TestAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day08_07/TestInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day08_07/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/GeometricObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/TestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Employee/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Employee/Mydate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Employee/PayrollSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Employee/SalariedEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Exception/EcmDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Exception/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Exception/TestMyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestFactoryMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestTemplat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/TestUSB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/innerClass/JubuInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/innerClass/TestInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exer/innerClass/TestProduct.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exer/Exception/TestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exer/Exception/EcmDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking5_2/CheckingAccount.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking5_2/SavingAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking6/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking6/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking6/CheckingAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/banking6/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/banking6/SavingAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Exception.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="45" column="63" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/exer/Customer.java" />
+        <option value="$PROJECT_DIR$/src/exer/Account.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestCustomer.java" />
+        <option value="$PROJECT_DIR$/src/day07/Kids.java" />
+        <option value="$PROJECT_DIR$/src/day07/ManKind.java" />
+        <option value="$PROJECT_DIR$/src/day08/Creature.java" />
+        <option value="$PROJECT_DIR$/src/day08/Account.java" />
+        <option value="$PROJECT_DIR$/src/day08/day08_07/Man.java" />
+        <option value="$PROJECT_DIR$/src/day08/day08_07/TestAnimal.java" />
+        <option value="$PROJECT_DIR$/src/day08/day08_07/Person.java" />
+        <option value="$PROJECT_DIR$/src/day08/day08_07/TestInstance.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestEquals.java" />
+        <option value="$PROJECT_DIR$/src/day09/GeometricObject.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestCircle.java" />
+        <option value="$PROJECT_DIR$/src/day09/TestScore.java" />
+        <option value="$PROJECT_DIR$/src/day09/Circle.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/TestBanking5_3.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/Account.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/CheckingAccount.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/Customer.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/SavingAccount.java" />
+        <option value="$PROJECT_DIR$/src/banking5_2/Bank.java" />
+        <option value="$PROJECT_DIR$/src/banking6/CheckingAccount.java" />
+        <option value="$PROJECT_DIR$/src/banking6/Bank.java" />
+        <option value="$PROJECT_DIR$/src/banking6/CustomerReport.java" />
+        <option value="$PROJECT_DIR$/src/banking6/TestBanking6.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestTemplat.java" />
+        <option value="$PROJECT_DIR$/src/exer/Runner.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestUSB.java" />
+        <option value="$PROJECT_DIR$/src/exer/A.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestfactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestFactoryMethods.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/exer/Mydate.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee.java" />
+        <option value="$PROJECT_DIR$/src/exer/SalariedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/exer/HourlyEmployee.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee/SalariedEmployee.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee/HourlyEmployee.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee/Mydate.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee/Employee.java" />
+        <option value="$PROJECT_DIR$/src/exer/Employee/PayrollSystem.java" />
+        <option value="$PROJECT_DIR$/src/exer/innerClass/TestInnerClass.java" />
+        <option value="$PROJECT_DIR$/src/exer/innerClass/JubuInnerClass.java" />
+        <option value="$PROJECT_DIR$/src/exer/innerClass/TestProduat.java" />
+        <option value="$PROJECT_DIR$/src/exer/innerClass/TestProduct.java" />
+        <option value="$PROJECT_DIR$/src/exer/Exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/exer/Exception/TestException.java" />
+        <option value="$PROJECT_DIR$/src/exer/Exception/EcmDay.java" />
+        <option value="$PROJECT_DIR$/src/exer/Exception/EcmDef.java" />
+        <option value="$PROJECT_DIR$/src/banking6/SavingAccount.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="banking5_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554175969967" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19672132" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="banking4" />
+      <recent name="banking3" />
+      <recent name="banking2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Bank\src\banking6" />
+      <recent name="E:\Bank\src\banking5_2" />
+      <recent name="E:\Bank\src\Testbanking4" />
+      <recent name="E:\Bank\src\Testbanking3" />
+      <recent name="E:\Bank\src\Testbanking2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EcmDef">
+    <configuration name="EcmDef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer.Exception.EcmDef" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayrollSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer.Employee.PayrollSystem" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer.Employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer.Exception.TestException" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer.innerClass.TestInnerClass" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer.innerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer.innerClass.TestProduct" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer.innerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EcmDef" />
+        <item itemvalue="Application.TestException" />
+        <item itemvalue="Application.TestProduct" />
+        <item itemvalue="Application.TestInnerClass" />
+        <item itemvalue="Application.PayrollSystem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\cdx\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+    <option name="sshExecutablePath" value="E:\JavaStudyCode\Bank\Bank.iml" />
+    <option name="sshUserName" value="3q34" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="" />
+      <created>1547348775222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547348775222</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info auto_hide="true" content_ui="combo" x="903" y="66" width="115" height="553" id="Project" order="0" weight="0.25026682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="设计器" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.34581104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32798573" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32976827" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008104" side_tool="true" weight="0.32976827" />
+      <window_info anchor="bottom" id="调试" order="10" weight="0.32790446" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32608697" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959481" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3298217" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="调色板" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3298217" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IDEA整合github测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA整合github测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exer/TestUSB.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bank$EcmDef.ic" NAME="EcmDef Coverage Results" MODIFIED="1559550510142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exer.Exception.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/day07/Kids.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day07/ManKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/hahah.java" />
+    <entry file="file://$PROJECT_DIR$/src/exer/TestCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/Woman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/TestAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day08/day08_07/TestInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/day09/GeometricObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day09/TestScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day09/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/TestBanking5_3.java" />
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestfactoryMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/exer/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/TestBanking6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestTemplat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/CustomerReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestUSB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestFactoryMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/TestEquals.java" />
+    <entry file="file://$PROJECT_DIR$/src/exer/TestProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Employee/PayrollSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Employee/HourlyEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Employee/Mydate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Employee/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Employee/SalariedEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/TestInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/JubuInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/TestProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Exception/TestMyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Exception/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="45" column="63" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exer/Exception/EcmDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/CheckingAccount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking5_2/SavingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/CheckingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banking6/SavingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Bank</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19672132" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
