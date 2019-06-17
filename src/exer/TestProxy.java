@@ -1,5 +1,8 @@
 package exer;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 /**
  * Created by cdx on 2019/5/29.
  * desc:
@@ -11,6 +14,10 @@ public class TestProxy {
         Object t=new ProxyObject();
         t.action();
 
+//        Collection n=new ArrayList();
+//        n.add(1);
+//        n.add(2);
+//        System.out.println(n);
     }
 }
 
