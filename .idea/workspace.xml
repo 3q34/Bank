@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exer/TestCollection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="新增集合用法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day06/banking2/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day06/banking2/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day07/ManKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day07/ManKind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/Anaimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/Anaimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/CheckAcount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/CheckAcount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Graduate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Graduate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day08/day08_07/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/day09/TestScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/day09/TestScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Employee/Mydate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/Mydate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Employee/PayrollSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Employee/PayrollSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Exception/EcmDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Exception/EcmDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Flash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Flash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/ObjectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/ObjectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/ProxyObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/ProxyObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/StudentWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/StudentWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/TeacherWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/TeacherWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/Templat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/Templat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/TestProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/TestUSB$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/NoteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/NoteBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bank/exer/innerClass/TestProduct$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exer/TestProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exer/TestProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,23 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="378">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -137,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/exer/TestProxy.java" />
         <option value="$PROJECT_DIR$/src/exer/TestCollection.java" />
         <option value="$PROJECT_DIR$/src/exer/Person.java" />
-        <option value="$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java" />
         <option value="$PROJECT_DIR$/src/exer/TestCollection/Person.java" />
+        <option value="$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java" />
       </list>
     </option>
   </component>
@@ -178,13 +142,6 @@
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exer" type="462c0819:PsiDirectoryNode" />
-              <item name="TestProxy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559615436385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增集合用法">
+      <created>1560762503322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560762503322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -375,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IDEA整合github测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDEA整合github测试" />
+    <MESSAGE value="新增集合用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增集合用法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,20 +756,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/exer/TestCollection/TestCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="378">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
