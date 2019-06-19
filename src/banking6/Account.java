@@ -13,9 +13,9 @@ public class Account {
 	}
 	
 	/**
-	 * ´æÇ®·½·¨
-	 * @param amt: ´æ¿îµÄÇ®Êı
-	 * @return: ·µ»Ø´æ¿îÊÇ·ñ³É¹¦
+	 * å­˜é’±æ–¹æ³•
+	 * @param amt: å­˜æ¬¾çš„é’±æ•°
+	 * @return: è¿”å›å­˜æ¬¾æ˜¯å¦æˆåŠŸ
 	 */
 	public boolean deposit(double amt){
 		this.balance += amt;
@@ -23,9 +23,9 @@ public class Account {
 	}
 	
 	/**
-	 * È¡Ç®·½·¨
-	 * @param amt: È¡¿îµÄÇ®Êı
-	 * @return: ·µ»ØÈ¡¿îÊÇ·ñ³É¹¦
+	 * å–é’±æ–¹æ³•
+	 * @param amt: å–æ¬¾çš„é’±æ•°
+	 * @return: è¿”å›å–æ¬¾æ˜¯å¦æˆåŠŸ
 	 */
 	public boolean withdraw(double amt){
 

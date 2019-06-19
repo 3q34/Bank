@@ -5,10 +5,10 @@ public class Customer {
 	private String firstName;
 	private String lastName;
 	
-	//±íÊ¾Óµ»¤¿ÉÒÔÓĞ¶à¸öÕË»§
+	//è¡¨ç¤ºæ‹¥æŠ¤å¯ä»¥æœ‰å¤šä¸ªè´¦æˆ·
 	private Account[] accounts;
 	
-	//±íÊ¾ÓÃ»§ËùÓĞµÄÓĞĞ§ÕË»§µÄÊıÁ¿
+	//è¡¨ç¤ºç”¨æˆ·æ‰€æœ‰çš„æœ‰æ•ˆè´¦æˆ·çš„æ•°é‡
 	private int numberOfAccounts;
 	
 	public Customer(String firstName, String lastName) {

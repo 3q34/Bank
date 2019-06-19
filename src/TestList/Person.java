@@ -4,10 +4,12 @@ package TestList;
  * Created by cdx on 2019/6/18.
  * desc:
  */
-public class Person {
+public class Person implements Comparable {
     private static final String TAG = "Person";
     private String name;
     private Integer age;
+
+
 
     public Person(String name, Integer age) {
         this.name = name;
@@ -54,5 +56,14 @@ public class Person {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+    //添加person类型是按照此方法中的属性排序
+    @Override
+    public int compareTo(Object o) {
+        if(o instanceof Person){
+            Person p=(Person)o;
+            return this.name.compareTo(p.name);
+        }
+        return 0;
     }
 }

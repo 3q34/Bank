@@ -2,7 +2,7 @@ package banking6;
 
 public class CheckingAccount extends Account{
 
-	//±íÊ¾Í¸Ö§±£»¤
+	//è¡¨ç¤ºé€æ”¯ä¿æŠ¤
 	private double overdraftProtection;
 	
 	public CheckingAccount(double init_balance) {
@@ -15,11 +15,11 @@ public class CheckingAccount extends Account{
 	}
 	
 	/**
-	 * ÖØĞ´ withdraw ·½·¨£» 
+	 * é‡å†™ withdraw æ–¹æ³•ï¼› 
 	 * 
-	 * ´Ë·½·¨±ØĞëÖ´ĞĞÏÂÁĞ¼ì²é¡£Èç¹ûµ±Ç°Óà¶î×ã¹»ÃÖ²¹È¡¿îamount,ÔòÕı³£½øĞĞ¡£
-	 * Èç¹û²»¹»ÃÖ²¹µ«ÊÇ´æÔÚÍ¸Ö§±£»¤£¬Ôò³¢ÊÔÓÃoverdraftProtectionµÃÖµÀ´ÃÖ²¹¸Ã²îÖµ£¨balance-amount£©.
-	 * Èç¹ûÃÖ²¹¸ÃÍ¸Ö§ËùĞèÒªµÄ½ğ¶î´óÓÚµ±Ç°µÄ±£»¤¼¶±ğ¡£ÔòÕû¸ö½»Ò×Ê§°Ü£¬µ«Óà¶îÎ´ÊÜÓ°Ïì¡£
+	 * æ­¤æ–¹æ³•å¿…é¡»æ‰§è¡Œä¸‹åˆ—æ£€æŸ¥ã€‚å¦‚æœå½“å‰ä½™é¢è¶³å¤Ÿå¼¥è¡¥å–æ¬¾amount,åˆ™æ­£å¸¸è¿›è¡Œã€‚
+	 * å¦‚æœä¸å¤Ÿå¼¥è¡¥ä½†æ˜¯å­˜åœ¨é€æ”¯ä¿æŠ¤ï¼Œåˆ™å°è¯•ç”¨overdraftProtectionå¾—å€¼æ¥å¼¥è¡¥è¯¥å·®å€¼ï¼ˆbalance-amountï¼‰.
+	 * å¦‚æœå¼¥è¡¥è¯¥é€æ”¯æ‰€éœ€è¦çš„é‡‘é¢å¤§äºå½“å‰çš„ä¿æŠ¤çº§åˆ«ã€‚åˆ™æ•´ä¸ªäº¤æ˜“å¤±è´¥ï¼Œä½†ä½™é¢æœªå—å½±å“ã€‚
 	 * 
 	 */
 	@Override
