@@ -1,4 +1,4 @@
-package exer.TestCollection;
+package TestList.TestCollection;
 
 /**
  * Created by cdx on 2019/6/17.

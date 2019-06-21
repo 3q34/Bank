@@ -1,4 +1,4 @@
-package exer.TestCollection;
+package TestList.TestCollection;
 
 import java.util.*;
 
