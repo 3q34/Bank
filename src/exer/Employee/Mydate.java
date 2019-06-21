@@ -29,8 +29,15 @@ public class Mydate {
         return year;
     }
 
-    public   String toDateString() {
-        return year + "年" + month + "月" + day + "日";
+
+
+    @Override
+    public String toString() {
+        return "Mydate{" +
+                "month=" + month +
+                ", day=" + day +
+                ", year=" + year +
+                '}';
     }
 }
 
