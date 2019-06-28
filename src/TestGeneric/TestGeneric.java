@@ -12,6 +12,47 @@ import java.util.*;
 public class TestGeneric {
     private static final String TAG = "TestGeneric";
 
+    //通配符
+    //具有具体数据类型的泛型都是List<?>的子类
+    // ? extends A 可以存放A及其子类
+    //？ super A;可以存放A及父类
+    public void test6() {
+        List<?> list = null;
+        List<String> list1 = new ArrayList<>();
+        List<Object> list2 = new ArrayList<>();
+        list = list1;
+        list = list2;
+        show(list1);
+        show(list2);
+
+        list.add(null);//只可以添加null
+
+    }
+
+    public void show(List<?> list) {
+
+    }
+
+    //泛型和继承的关系
+    public void test5() {
+        List<Object> list = null;
+        List<String> list1 = new ArrayList<>();
+        //list=list1;//错误
+
+
+    }
+
+
+    //泛型方法
+    @Test
+    public void test4() {
+        Order<String> order = new Order<String>();
+        order.setT("哈哈");
+        Book book = order.getE(new Book("哈哈", 3));
+        System.out.println(book.getName());
+
+    }
+
     //自定义泛型类
     @Test
     public void test3() {
@@ -21,7 +62,7 @@ public class TestGeneric {
         order.add();
         List<String> list = order.list;
         System.out.println(list);
-        SubOrder<Integer> inorder=new SubOrder<Integer>();
+        SubOrder<Integer> inorder = new SubOrder<Integer>();
         inorder.setT(112);
         System.out.println(inorder.getT());
     }

@@ -14,6 +14,11 @@ public class Order<T> {
     private T t;//自定义类型，可以使用各种数据类型。
     List<T> list = new ArrayList<>();
 
+    //泛型方法:泛型方法中传入什么类型，就返回什么类型的数据类型，可以跟泛型类中的类型不同
+    public <E> E getE(E e) {
+        return e;
+    }
+
     public void add() {
         list.add(t);
     }
