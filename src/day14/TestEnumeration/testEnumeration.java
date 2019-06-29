@@ -1,4 +1,4 @@
-package TestEnumeration;
+package day14.TestEnumeration;
 
 import org.junit.Test;
 

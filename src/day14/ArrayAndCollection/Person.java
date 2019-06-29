@@ -1,4 +1,4 @@
-package Map;
+package day14.ArrayAndCollection;
 
 /**
  * Created by cdx on 2019/6/18.

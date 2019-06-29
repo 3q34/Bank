@@ -1,4 +1,4 @@
-package TestCollections;
+package day14.TestCollections;
 
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.*;
  * <p>
  */
 public class TestCollections {
-    private static final String TAG = "TestCollections";
+    private static final String TAG = "day14/TestCollections";
 
     /*synchronized方法，
      *可使集合包装成线程同步的集合，

@@ -1,7 +1,7 @@
-package Map;
+package day14.Map;
 
-import TestList.ExerTreeSet.Employee1;
-import TestList.ExerTreeSet.MyDate;
+import day14.TestList.ExerTreeSet.Employee1;
+import day14.TestList.ExerTreeSet.MyDate;
 import org.junit.Test;
 
 import java.util.*;

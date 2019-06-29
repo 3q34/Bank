@@ -1,4 +1,4 @@
-package TestList.ExerTreeSet;
+package day14.TestList.ExerTreeSet;
 
 import org.junit.Test;
 

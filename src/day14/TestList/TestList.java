@@ -1,4 +1,4 @@
-package TestList;
+package day14.TestList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,7 +9,7 @@ import java.util.List;
  * desc:
  */
 public class TestList {
-    private static final String TAG = "TestList";
+    private static final String TAG = "day14/TestList";
 
     public static void main(String[] args) {
         testList1();
