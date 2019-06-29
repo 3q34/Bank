@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="Generic泛型相关">
-      <change afterPath="$PROJECT_DIR$/src/TestGeneric/GenericPerson.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="Generic泛型通配符">
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Exercise/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Exercise/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestGeneric/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestGeneric/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestGeneric/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestGeneric/TestGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayAndCollection/ArrayCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/ArrayAndCollection/ArrayCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayAndCollection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/ArrayAndCollection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayAndCollection/Person1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/ArrayAndCollection/Person1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/Map/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/Map/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/TestMapExcersize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/Map/TestMapExcersize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCollections/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestCollections/TestCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestEnumeration/testEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestEnumeration/testEnumeration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/CustomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/CustomDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/GenericPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/GenericPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/TestCustomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/TestCustomDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestGeneric/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestGeneric/TestGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/ExerTreeSet/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/ExerTreeSet/Employee1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/Employee1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/ExerTreeSet/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/ExerTreeSet/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/TestEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/TestCollection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/TestCollection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/TestCollection/TestCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/TestCollection/TestCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/TestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/TestSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestList/testTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/TestList/testTreeSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,13 +55,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestGeneric/GenericPerson.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestCollections/TestCollections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="504">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/MyDate.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/TestEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/TestDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee1.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,12 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exer/A.java" />
-        <option value="$PROJECT_DIR$/src/exer/TestfactoryMethod.java" />
-        <option value="$PROJECT_DIR$/src/exer/TestFactoryMethods.java" />
-        <option value="$PROJECT_DIR$/src/exer/Mydate.java" />
-        <option value="$PROJECT_DIR$/src/exer/Employee.java" />
-        <option value="$PROJECT_DIR$/src/exer/SalariedEmployee.java" />
         <option value="$PROJECT_DIR$/src/exer/HourlyEmployee.java" />
         <option value="$PROJECT_DIR$/src/exer/Employee/SalariedEmployee.java" />
         <option value="$PROJECT_DIR$/src/exer/Employee/HourlyEmployee.java" />
@@ -112,6 +192,12 @@
         <option value="$PROJECT_DIR$/src/TestGeneric/Order.java" />
         <option value="$PROJECT_DIR$/src/TestGeneric/TestGeneric.java" />
         <option value="$PROJECT_DIR$/src/TestGeneric/GenericPerson.java" />
+        <option value="$PROJECT_DIR$/src/TestGeneric/Exercise/Employee1.java" />
+        <option value="$PROJECT_DIR$/src/TestGeneric/Exercise/TestEmployee.java" />
+        <option value="$PROJECT_DIR$/src/day14/TestCollections/TestCollections.java" />
+        <option value="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/User.java" />
+        <option value="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/DAO.java" />
+        <option value="$PROJECT_DIR$/src/day14/TestGeneric/exercise1/TestDAO.java" />
       </list>
     </option>
   </component>
@@ -122,10 +208,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1618" />
-    <option name="height" value="868" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1619" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,14 +236,28 @@
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
               <item name="TestGeneric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+              <item name="TestGeneric" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +266,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561711522779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561779704694" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -173,8 +274,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric\Exercise" />
+      <recent name="E:\Bank\src\banking6" />
+      <recent name="E:\Bank\src\banking5_2" />
+      <recent name="E:\Bank\src\Testbanking4" />
+      <recent name="E:\Bank\src\Testbanking3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ArrayAndCollection" />
@@ -183,12 +288,8 @@
       <recent name="banking4" />
       <recent name="banking3" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Bank\src\banking6" />
-      <recent name="E:\Bank\src\banking5_2" />
-      <recent name="E:\Bank\src\Testbanking4" />
-      <recent name="E:\Bank\src\Testbanking3" />
-      <recent name="E:\Bank\src\Testbanking2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,18 +304,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGeneric.test4">
-    <configuration name="ArrayCollection.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestDAO">
+    <configuration name="TestDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.exercise1.TestDAO" />
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayAndCollection.*" />
+          <option name="PATTERN" value="day14.TestGeneric.exercise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ArrayAndCollection" />
-      <option name="MAIN_CLASS_NAME" value="ArrayAndCollection.ArrayCollection" />
-      <option name="METHOD_NAME" value="test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmployee.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14.TestGeneric.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day14.TestGeneric.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.Exercise.TestEmployee" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,12 +338,12 @@
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestGeneric.*" />
+          <option name="PATTERN" value="day14.TestGeneric.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestGeneric" />
-      <option name="MAIN_CLASS_NAME" value="TestGeneric.TestGeneric" />
+      <option name="PACKAGE_NAME" value="day14.TestGeneric" />
+      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.TestGeneric" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -240,12 +354,12 @@
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestGeneric.*" />
+          <option name="PATTERN" value="day14.TestGeneric.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestGeneric" />
-      <option name="MAIN_CLASS_NAME" value="TestGeneric.TestGeneric" />
+      <option name="PACKAGE_NAME" value="day14.TestGeneric" />
+      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.TestGeneric" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -256,29 +370,13 @@
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestGeneric.*" />
+          <option name="PATTERN" value="day14.TestGeneric.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestGeneric" />
-      <option name="MAIN_CLASS_NAME" value="TestGeneric.TestGeneric" />
+      <option name="PACKAGE_NAME" value="day14.TestGeneric" />
+      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.TestGeneric" />
       <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGeneric.testGeneric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestGeneric.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestGeneric" />
-      <option name="MAIN_CLASS_NAME" value="TestGeneric.TestGeneric" />
-      <option name="METHOD_NAME" value="testGeneric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,11 +384,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDAO" />
+        <item itemvalue="JUnit.TestEmployee.test2" />
         <item itemvalue="JUnit.TestGeneric.test4" />
         <item itemvalue="JUnit.TestGeneric.test3" />
         <item itemvalue="JUnit.TestGeneric.test2" />
-        <item itemvalue="JUnit.TestGeneric.testGeneric" />
-        <item itemvalue="JUnit.ArrayCollection.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -392,13 +490,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561632049459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Generic泛型通配符">
+      <created>1561715726818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561715726818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGeneric_testGeneric - 2019.06.26 at 18h 11m 49s.xml">
-      <configuration name="TestGeneric.testGeneric" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGeneric_testGeneric - 2019.06.26 at 18h 15m 50s.xml">
       <configuration name="TestGeneric.testGeneric" configurationId="JUnit" />
     </history-entry>
@@ -426,6 +528,9 @@
     <history-entry file="TestGeneric_test4 - 2019.06.28 at 10h 41m 04s.xml">
       <configuration name="TestGeneric.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestEmployee_test2 - 2019.06.29 at 10h 32m 47s.xml">
+      <configuration name="TestEmployee.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +545,7 @@
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info auto_hide="true" content_ui="combo" x="903" y="66" width="115" height="553" id="Project" order="0" sideWeight="0.49821427" weight="0.15397082" />
+      <window_info auto_hide="true" content_ui="combo" x="903" y="66" width="115" height="553" id="Project" order="0" sideWeight="0.49821427" weight="0.1993517" />
       <window_info id="Structure" order="1" sideWeight="0.5017857" side_tool="true" weight="0.15397082" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,7 +555,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.2642857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.2642857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,7 +590,8 @@
     <MESSAGE value="enumeration迭代器旧版本，了解" />
     <MESSAGE value="自然排序和自制排序复习及集合和数组的区别" />
     <MESSAGE value="Generic泛型相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic泛型相关" />
+    <MESSAGE value="Generic泛型通配符" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic泛型通配符" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,73 +615,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exer/Employee/SalariedEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/TestInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/JubuInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/innerClass/TestProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/Exception/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/Exception/TestMyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-669">
@@ -676,14 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/TestCollection/TestCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/TestCollection/TestCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/TestCollection/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/TestCollection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
@@ -740,7 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/ExerTreeSet/MyDate.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/MyDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-524">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -761,7 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/ExerTreeSet/Employee1.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/Employee1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-414">
           <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
@@ -772,7 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/ExerTreeSet/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
@@ -786,7 +825,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/TestSet.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/TestSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -796,7 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/TestList.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/TestList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
@@ -806,17 +845,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="43" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/Map/Person.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestEnumeration/testEnumeration.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestEnumeration/testEnumeration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
@@ -826,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/testTreeSet.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/testTreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
@@ -836,24 +875,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCollections/TestCollections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayAndCollection/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/ArrayAndCollection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="65" column="9" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="65" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/TestMap.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/Map/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
@@ -863,17 +892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestList/ExerTreeSet/TestEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayAndCollection/Person1.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/ArrayAndCollection/Person1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
@@ -887,7 +906,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayAndCollection/ArrayCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/ArrayAndCollection/ArrayCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
@@ -897,7 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map/TestMapExcersize.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/Map/TestMapExcersize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
@@ -907,7 +926,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
@@ -924,7 +943,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/TestGeneric.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/TestGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
@@ -934,7 +953,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
@@ -946,7 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/DAO.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
@@ -959,24 +978,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/CustomDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/CustomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/TestCustomDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/TestCustomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGeneric/GenericPerson.java">
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/GenericPerson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestList/ExerTreeSet/TestEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="40" column="38" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/MyDate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestCollections/TestCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/TestEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/TestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
