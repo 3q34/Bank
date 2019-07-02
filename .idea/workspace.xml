@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="调整文件夹以及Generic泛型练习">
-      <change afterPath="$PROJECT_DIR$/src/day14/Annotation/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/Annotation/TestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/Enum/TestSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/TestEnum/TestEnumSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/TestEnum/TestSeason.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="枚举和注解">
+      <change afterPath="$PROJECT_DIR$/src/day15IO/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15IO/TestFileReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15IO/TestFileStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,6 +17,14 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Bank$TestFileStream.ic" NAME="TestFileStream Coverage Results" MODIFIED="1562056817229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>day15IO.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="175" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -28,34 +34,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day14/Annotation/TestAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/src/day15IO/TestFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="168">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day14/Annotation/MyAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/src/day15IO/TestFileStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="147">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day15IO/TestFileReaderWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,10 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exer/innerClass/TestProduct.java" />
-        <option value="$PROJECT_DIR$/src/exer/Exception/MyException.java" />
-        <option value="$PROJECT_DIR$/src/exer/Exception/TestException.java" />
-        <option value="$PROJECT_DIR$/src/exer/Exception/EcmDay.java" />
         <option value="$PROJECT_DIR$/src/banking6/SavingAccount.java" />
         <option value="$PROJECT_DIR$/src/exer/Exception/EcmDef.java" />
         <option value="$PROJECT_DIR$/src/exer/TestProxy.java" />
@@ -138,6 +143,10 @@
         <option value="$PROJECT_DIR$/src/day14/TestEnum/TestEnumSeason.java" />
         <option value="$PROJECT_DIR$/src/day14/Annotation/MyAnnotation.java" />
         <option value="$PROJECT_DIR$/src/day14/Annotation/TestAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/day15IO/TestIO.java" />
+        <option value="$PROJECT_DIR$/src/day15IO/TestFile.java" />
+        <option value="$PROJECT_DIR$/src/day15IO/TestFileStream.java" />
+        <option value="$PROJECT_DIR$/src/day15IO/TestFileReaderWriter.java" />
       </list>
     </option>
   </component>
@@ -148,10 +157,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1618" />
-    <option name="height" value="868" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1619" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,28 +184,7 @@
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-              <item name="Annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-              <item name="TestEnum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-              <item name="TestEnumeration" type="462c0819:PsiDirectoryNode" />
+              <item name="day15IO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +200,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561951475072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562061554036" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -250,13 +238,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestAnnotation">
-    <configuration name="TestAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.Annotation.TestAnnotation" />
+  <component name="RunManager" selected="JUnit.TestFile.test">
+    <configuration name="TestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day15IO.TestFile" />
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.Annotation.*" />
+          <option name="PATTERN" value="day15IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,59 +252,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.exercise1.TestDAO" />
+    <configuration name="TestFileReaderWriter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.TestGeneric.exercise1.*" />
+          <option name="PATTERN" value="day15IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day15IO" />
+      <option name="MAIN_CLASS_NAME" value="day15IO.TestFileReaderWriter" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEnumSeason" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.TestEnum.TestEnumSeason" />
+    <configuration name="TestFileReaderWriter.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.TestEnum.*" />
+          <option name="PATTERN" value="day15IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEmployee.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14.TestGeneric.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day14.TestGeneric.Exercise" />
-      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.Exercise.TestEmployee" />
+      <option name="PACKAGE_NAME" value="day15IO" />
+      <option name="MAIN_CLASS_NAME" value="day15IO.TestFileReaderWriter" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGeneric.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFileStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.TestGeneric.*" />
+          <option name="PATTERN" value="day15IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14.TestGeneric" />
-      <option name="MAIN_CLASS_NAME" value="day14.TestGeneric.TestGeneric" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="day15IO" />
+      <option name="MAIN_CLASS_NAME" value="day15IO.TestFileStream" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFile.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day15IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day15IO" />
+      <option name="MAIN_CLASS_NAME" value="day15IO.TestFile" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -324,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestAnnotation" />
-        <item itemvalue="Application.TestEnumSeason" />
-        <item itemvalue="Application.TestDAO" />
-        <item itemvalue="JUnit.TestEmployee.test2" />
-        <item itemvalue="JUnit.TestGeneric.test4" />
+        <item itemvalue="JUnit.TestFile.test" />
+        <item itemvalue="Application.TestFile" />
+        <item itemvalue="JUnit.TestFileReaderWriter.test2" />
+        <item itemvalue="JUnit.TestFileReaderWriter.test" />
+        <item itemvalue="JUnit.TestFileStream" />
       </list>
     </recent_temporary>
   </component>
@@ -451,39 +443,46 @@
       <option name="project" value="LOCAL" />
       <updated>1561780912401</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="枚举和注解">
+      <created>1561951501617</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561951501617</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGeneric_testGeneric - 2019.06.26 at 18h 15m 50s.xml">
-      <configuration name="TestGeneric.testGeneric" configurationId="JUnit" />
+    <history-entry file="TestFileStream_test4 - 2019.07.02 at 16h 20m 59s.xml">
+      <configuration name="TestFileStream.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_testGeneric - 2019.06.26 at 18h 16m 24s.xml">
-      <configuration name="TestGeneric.testGeneric" configurationId="JUnit" />
+    <history-entry file="TestFileStream_test4 - 2019.07.02 at 16h 27m 05s.xml">
+      <configuration name="TestFileStream.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test2 - 2019.06.26 at 18h 25m 59s.xml">
-      <configuration name="TestGeneric.test2" configurationId="JUnit" />
+    <history-entry file="TestFileStream_test4 - 2019.07.02 at 16h 32m 23s.xml">
+      <configuration name="TestFileStream.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test3 - 2019.06.27 at 11h 07m 50s.xml">
-      <configuration name="TestGeneric.test3" configurationId="JUnit" />
+    <history-entry file="TestFileStream_test4 - 2019.07.02 at 16h 32m 35s.xml">
+      <configuration name="TestFileStream.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test3 - 2019.06.27 at 11h 09m 42s.xml">
-      <configuration name="TestGeneric.test3" configurationId="JUnit" />
+    <history-entry file="TestFileStream_test4 - 2019.07.02 at 16h 33m 07s.xml">
+      <configuration name="TestFileStream.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test3 - 2019.06.27 at 11h 12m 02s.xml">
-      <configuration name="TestGeneric.test3" configurationId="JUnit" />
+    <history-entry file="TestFileStream - 2019.07.02 at 16h 41m 02s.xml">
+      <configuration name="TestFileStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test3 - 2019.06.27 at 11h 29m 48s.xml">
-      <configuration name="TestGeneric.test3" configurationId="JUnit" />
+    <history-entry file="TestFileReaderWriter_test - 2019.07.02 at 17h 37m 57s.xml">
+      <configuration name="TestFileReaderWriter.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test3 - 2019.06.27 at 16h 34m 51s.xml">
-      <configuration name="TestGeneric.test3" configurationId="JUnit" />
+    <history-entry file="TestFileReaderWriter_test - 2019.07.02 at 17h 38m 10s.xml">
+      <configuration name="TestFileReaderWriter.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGeneric_test4 - 2019.06.28 at 10h 41m 04s.xml">
-      <configuration name="TestGeneric.test4" configurationId="JUnit" />
+    <history-entry file="TestFileReaderWriter_test2 - 2019.07.02 at 17h 43m 23s.xml">
+      <configuration name="TestFileReaderWriter.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEmployee_test2 - 2019.06.29 at 10h 32m 47s.xml">
-      <configuration name="TestEmployee.test2" configurationId="JUnit" />
+    <history-entry file="TestFile_test - 2019.07.02 at 17h 55m 14s.xml">
+      <configuration name="TestFile.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -509,7 +508,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" x="1816" y="299" width="762" height="413" id="Run" order="2" sideWeight="0.49918962" weight="0.2375" />
+      <window_info anchor="bottom" x="621" y="116" width="627" height="413" id="Run" order="2" sideWeight="0.49918962" weight="0.2375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +527,7 @@
       <window_info anchor="right" id="调色板" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Palette" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3298217" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3298217" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -546,7 +545,8 @@
     <MESSAGE value="Generic泛型相关" />
     <MESSAGE value="Generic泛型通配符" />
     <MESSAGE value="调整文件夹以及Generic泛型练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整文件夹以及Generic泛型练习" />
+    <MESSAGE value="枚举和注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="枚举和注解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,59 +570,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/banking6/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/banking5_2/SavingAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/banking5_2/CheckingAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/Exception/EcmDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/Exception/TestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exer/TestProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day14/TestList/TestCollection/TestCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1064,6 +1011,57 @@
             <element signature="e#577#578#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="255" column="5" lean-forward="true" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="312" column="15" lean-forward="true" selection-start-line="312" selection-start-column="15" selection-end-line="312" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day15IO/TestFileReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day15IO/TestFileStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day15IO/TestFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
