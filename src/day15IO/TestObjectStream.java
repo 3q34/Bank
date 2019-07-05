@@ -18,7 +18,7 @@ public class TestObjectStream {
 
         ObjectInputStream ois = null;
         try {
-            ois = new ObjectInputStream(new FileInputStream("D:\\1.txt"));
+            ois = new ObjectInputStream(new FileInputStream("D:\\2.txt"));
             Person p1 = (Person) ois.readObject();
             System.out.println(p1);
             Person p2 = (Person) ois.readObject();
