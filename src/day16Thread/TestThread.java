@@ -1,5 +1,7 @@
 package day16Thread;
 
+import org.junit.Test;
+
 /**
  * Created by cdx on 2019/7/5.
  * desc:创建一个线程，完成1-100输出，同时主线程也执行本操作
@@ -20,6 +22,31 @@ public class TestThread {
         st.start();
         for (int i = 1000; i >= 0; i--)
             System.out.println(Thread.currentThread().getName() + "-C" + i);
+
+        PrintNum p1 = new PrintNum("线程1");
+        p1.setPriority(Thread.MAX_PRIORITY);
+        PrintNum p2 = new PrintNum("线程2");
+        p2.setPriority(Thread.MIN_PRIORITY);
+        p1.start();
+        p2.start();
+
+        //接口实现：实现的方式创建线程
+        PrintNum1 pn = new PrintNum1();
+        Thread t2 = new Thread(pn);
+        t2.start();
+        Thread t3 = new Thread(pn);
+        t3.start();
+    }
+
+    //几个线程的方法
+    @Test
+    public void test2() {
+        PrintNum p1 = new PrintNum("线程1");
+        p1.setPriority(Thread.MAX_PRIORITY);
+        PrintNum p2 = new PrintNum("线程2");
+        p2.setPriority(Thread.MIN_PRIORITY);
+        p1.start();
+        p2.start();
     }
 
     public static void test() {
@@ -45,4 +72,16 @@ class SubThread extends Thread {
             System.out.println(Thread.currentThread().getName() + "B" + i);
     }
 
+
+}
+
+class PrintNum extends Thread {
+    public PrintNum(String name) {
+        super(name);
+    }
+
+    public void run() {
+        for (int i = 0; i <= 1000; i++)
+            System.out.println(Thread.currentThread().getName() + "B" + i);
+    }
 }
