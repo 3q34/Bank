@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="synchronized">
-      <change afterPath="$PROJECT_DIR$/src/day16Thread/TestCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day16Thread/TestExerc.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="锁和线程通信">
+      <change afterPath="$PROJECT_DIR$/src/day18/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/TestStringMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,75 +33,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day15IO/TestOtherStream.java">
+        <entry file="file://$PROJECT_DIR$/src/day18/TestString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1113">
-              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/TestThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-              <folding>
-                <element signature="e#1753#1754#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#2062#2063#0" expanded="true" />
-                <element signature="e#2089#2090#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/TestWindows.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/TestSynchronized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/TestExerc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day16Thread/TestCommunication.java">
+        <entry file="file://$PROJECT_DIR$/src/day18/TestStringMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="720">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestList/Person.java" />
-        <option value="$PROJECT_DIR$/src/TestList/TestList.java" />
         <option value="$PROJECT_DIR$/src/Map/Person.java" />
         <option value="$PROJECT_DIR$/src/Map/TestMap.java" />
         <option value="$PROJECT_DIR$/src/TestCollections/TestCollections.java" />
@@ -184,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/day16Thread/Singleton.java" />
         <option value="$PROJECT_DIR$/src/day16Thread/TestExerc.java" />
         <option value="$PROJECT_DIR$/src/day16Thread/TestCommunication.java" />
+        <option value="$PROJECT_DIR$/src/day18/TestString.java" />
+        <option value="$PROJECT_DIR$/src/day18/TestStringMethod.java" />
       </list>
     </option>
   </component>
@@ -221,21 +169,14 @@
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day16Thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day16Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="TestWindows.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +185,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562556027202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562667847198" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -252,8 +193,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaStudyCode\Bank\src\day14\TestEnum\TestEnum" />
+      <recent name="E:\JavaStudyCode\Bank\src\day14\TestEnum" />
+      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric\Exercise" />
+      <recent name="E:\Bank\src\banking6" />
+      <recent name="E:\Bank\src\banking5_2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ArrayAndCollection" />
@@ -262,12 +207,8 @@
       <recent name="banking4" />
       <recent name="banking3" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaStudyCode\Bank\src\day14\TestEnum\TestEnum" />
-      <recent name="E:\JavaStudyCode\Bank\src\day14\TestEnum" />
-      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric\Exercise" />
-      <recent name="E:\Bank\src\banking6" />
-      <recent name="E:\Bank\src\banking5_2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaStudyCode\Bank\src\TestGeneric" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCommunication">
+  <component name="RunManager" selected="Application.TestStringMethod">
     <configuration name="TestCommunication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day16Thread.TestCommunication" />
       <module name="Bank" />
@@ -296,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExerc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16Thread.TestExerc" />
+    <configuration name="TestStringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.TestStringMethod" />
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16Thread.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,52 +250,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16Thread.TestSynchronized" />
+    <configuration name="TestStringMethod.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16Thread.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day18" />
+      <option name="MAIN_CLASS_NAME" value="day18.TestStringMethod" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16Thread.TestThread" />
+    <configuration name="TestStringMethod.testStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16Thread.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day18" />
+      <option name="MAIN_CLASS_NAME" value="day18.TestStringMethod" />
+      <option name="METHOD_NAME" value="testStringBuffer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16Thread.TestWindows" />
+    <configuration name="TestString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16Thread.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day18" />
+      <option name="MAIN_CLASS_NAME" value="day18.TestString" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStringMethod" />
+        <item itemvalue="JUnit.TestStringMethod.testStringBuffer" />
+        <item itemvalue="JUnit.TestStringMethod.test" />
+        <item itemvalue="JUnit.TestString.test" />
         <item itemvalue="Application.TestCommunication" />
-        <item itemvalue="Application.TestExerc" />
-        <item itemvalue="Application.TestSynchronized" />
-        <item itemvalue="Application.TestWindows" />
-        <item itemvalue="Application.TestThread" />
       </list>
     </recent_temporary>
   </component>
@@ -526,39 +476,46 @@
       <option name="project" value="LOCAL" />
       <updated>1562495132397</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="锁和线程通信">
+      <created>1562556067067</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562556067082</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRandomAccessFile_test - 2019.07.05 at 08h 51m 42s.xml">
-      <configuration name="TestRandomAccessFile.test" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_test - 2019.07.09 at 10h 21m 33s.xml">
+      <configuration name="TestStringMethod.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test - 2019.07.05 at 08h 52m 08s.xml">
-      <configuration name="TestRandomAccessFile.test" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_test - 2019.07.09 at 10h 22m 16s.xml">
+      <configuration name="TestStringMethod.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test - 2019.07.05 at 08h 52m 36s.xml">
-      <configuration name="TestRandomAccessFile.test" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_test - 2019.07.09 at 10h 22m 43s.xml">
+      <configuration name="TestStringMethod.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test1 - 2019.07.05 at 09h 04m 48s.xml">
-      <configuration name="TestRandomAccessFile.test1" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_test - 2019.07.09 at 10h 25m 50s.xml">
+      <configuration name="TestStringMethod.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test2 - 2019.07.05 at 09h 10m 34s.xml">
-      <configuration name="TestRandomAccessFile.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 31m 29s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test2 - 2019.07.05 at 09h 11m 54s.xml">
-      <configuration name="TestRandomAccessFile.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 34m 20s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test2 - 2019.07.05 at 09h 12m 18s.xml">
-      <configuration name="TestRandomAccessFile.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 35m 13s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test2 - 2019.07.05 at 09h 12m 52s.xml">
-      <configuration name="TestRandomAccessFile.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 36m 21s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRandomAccessFile_test2 - 2019.07.05 at 09h 26m 55s.xml">
-      <configuration name="TestRandomAccessFile.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 37m 42s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestThread_test2 - 2019.07.06 at 15h 44m 07s.xml">
-      <configuration name="TestThread.test2" configurationId="JUnit" />
+    <history-entry file="TestStringMethod_testStringBuffer - 2019.07.09 at 10h 37m 58s.xml">
+      <configuration name="TestStringMethod.testStringBuffer" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -584,7 +541,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" x="621" y="116" width="627" height="413" id="Run" order="2" sideWeight="0.49918962" weight="0.46785715" />
+      <window_info anchor="bottom" x="621" y="116" width="627" height="413" id="Run" order="2" sideWeight="0.49918962" weight="0.63035715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,7 +624,8 @@
     <MESSAGE value="数据流、对象流、打印流" />
     <MESSAGE value="Thread" />
     <MESSAGE value="synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized" />
+    <MESSAGE value="锁和线程通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="锁和线程通信" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,68 +649,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day14/Map/TestMapExcersize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/TestGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/CustomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1181,8 +1077,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day16Thread/TestCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day18/TestString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day18/TestStringMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
