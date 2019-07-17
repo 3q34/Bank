@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="string">
-      <change afterPath="$PROJECT_DIR$/src/day18/TestBigInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/TestDateToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/TestStringToOtherClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19Reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19Reflection/TestReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day16Thread/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day16Thread/TestThread.java" afterDir="false" />
     </list>
@@ -34,13 +33,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day18/TestBigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+            <state relative-caret-position="399">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day19Reflection/TestReflection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day19Reflection/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestEnumeration/testEnumeration.java" />
-        <option value="$PROJECT_DIR$/src/ArrayAndCollection/Person.java" />
         <option value="$PROJECT_DIR$/src/ArrayAndCollection/Person1.java" />
         <option value="$PROJECT_DIR$/src/ArrayAndCollection/ArrayCollection.java" />
         <option value="$PROJECT_DIR$/src/Map/TestMapExcersize.java" />
@@ -128,6 +152,8 @@
         <option value="$PROJECT_DIR$/src/day18/TestStringToOtherClass.java" />
         <option value="$PROJECT_DIR$/src/day18/TestDateToString.java" />
         <option value="$PROJECT_DIR$/src/day18/TestBigInteger.java" />
+        <option value="$PROJECT_DIR$/src/day19Reflection/Person.java" />
+        <option value="$PROJECT_DIR$/src/day19Reflection/TestReflection.java" />
       </list>
     </option>
   </component>
@@ -149,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,14 +193,12 @@
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="day19Reflection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,12 +207,12 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562750951226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563363023596" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19672132" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -219,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBigInteger.test1">
+  <component name="RunManager" selected="JUnit.TestReflection.test3">
     <configuration name="TestBigInteger.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
@@ -230,22 +256,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="day18" />
       <option name="MAIN_CLASS_NAME" value="day18.TestBigInteger" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDateToString.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day18" />
-      <option name="MAIN_CLASS_NAME" value="day18.TestDateToString" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -268,33 +278,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringToOtherClass.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflection.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day18.*" />
+          <option name="PATTERN" value="day19Reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day18" />
-      <option name="MAIN_CLASS_NAME" value="day18.TestStringToOtherClass" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="day19Reflection" />
+      <option name="MAIN_CLASS_NAME" value="day19Reflection.TestReflection" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringToOtherClass.testStringBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflection.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day18.*" />
+          <option name="PATTERN" value="day19Reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day18" />
-      <option name="MAIN_CLASS_NAME" value="day18.TestStringToOtherClass" />
-      <option name="METHOD_NAME" value="testStringBuffer" />
+      <option name="PACKAGE_NAME" value="day19Reflection" />
+      <option name="MAIN_CLASS_NAME" value="day19Reflection.TestReflection" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflection.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19Reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day19Reflection" />
+      <option name="MAIN_CLASS_NAME" value="day19Reflection.TestReflection" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestReflection.test3" />
+        <item itemvalue="JUnit.TestReflection.test" />
+        <item itemvalue="JUnit.TestReflection.test2" />
         <item itemvalue="JUnit.TestBigInteger.test1" />
         <item itemvalue="JUnit.TestDateToString.test2" />
-        <item itemvalue="JUnit.TestDateToString.test1" />
-        <item itemvalue="JUnit.TestStringToOtherClass.testStringBuffer" />
-        <item itemvalue="JUnit.TestStringToOtherClass.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -492,39 +518,46 @@
       <option name="project" value="LOCAL" />
       <updated>1562668058912</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="string和date等的转换">
+      <created>1562751142272</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562751142272</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStringToOtherClass_testStringBuffer - 2019.07.10 at 09h 26m 51s.xml">
-      <configuration name="TestStringToOtherClass.testStringBuffer" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 11h 52m 16s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStringToOtherClass_testStringBuffer - 2019.07.10 at 09h 27m 22s.xml">
-      <configuration name="TestStringToOtherClass.testStringBuffer" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 11h 52m 57s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test1 - 2019.07.10 at 09h 51m 16s.xml">
-      <configuration name="TestDateToString.test1" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 11h 54m 53s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 15h 55m 51s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 11h 55m 12s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 16h 02m 17s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 11h 57m 00s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 16h 03m 00s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 12h 00m 23s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 16h 06m 03s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 12h 07m 16s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 16h 06m 45s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test - 2019.07.11 at 12h 07m 48s.xml">
+      <configuration name="TestReflection.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDateToString_test2 - 2019.07.10 at 16h 29m 53s.xml">
-      <configuration name="TestDateToString.test2" configurationId="JUnit" />
+    <history-entry file="TestReflection_test3 - 2019.07.17 at 18h 59m 45s.xml">
+      <configuration name="TestReflection.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBigInteger_test1 - 2019.07.10 at 16h 56m 27s.xml">
-      <configuration name="TestBigInteger.test1" configurationId="JUnit" />
+    <history-entry file="TestReflection_test3 - 2019.07.17 at 19h 00m 11s.xml">
+      <configuration name="TestReflection.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -550,7 +583,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.4017857" />
+      <window_info anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" weight="0.4017857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -635,7 +668,8 @@
     <MESSAGE value="synchronized" />
     <MESSAGE value="锁和线程通信" />
     <MESSAGE value="string" />
-    <option name="LAST_COMMIT_MESSAGE" value="string" />
+    <MESSAGE value="string和date等的转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="string和date等的转换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,16 +693,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/Exercise/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day14/TestGeneric/exercise1/TestDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1058,9 +1082,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day18/TestStringToOtherClass.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day18/TestStringToOtherClass.gradle" />
     <entry file="file://$PROJECT_DIR$/src/day18/TestString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1121,8 +1143,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day18/TestBigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+        <state relative-caret-position="399">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day19Reflection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day19Reflection/TestReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

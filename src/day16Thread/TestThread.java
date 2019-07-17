@@ -15,7 +15,7 @@ public class TestThread {
         t.start();
         // t.join();//使A线程执行过程中，另外的线程B强制执行，完成后再执行A线程
         //isAlive()   return boolean类型，是否存活
-//        Thread t1 = new Thread(TestThread::test1);
+//        Thread t1 = new Thread(TestThread::testStringBuffer);
 //        t1.start();
 //        t.run();
         SubThread st = new SubThread();
