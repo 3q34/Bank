@@ -2,9 +2,12 @@ package day19Reflection;
 
 import org.junit.Test;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Properties;
 
 /**
  * Created by cdx on 2019/7/10.
@@ -13,6 +16,32 @@ import java.lang.reflect.Method;
  */
 public class TestReflection {
     private static final String TAG = "TestReflection";
+
+    //加载器
+    @Test
+    public void test5() throws ClassNotFoundException, IOException {
+        ClassLoader loader = ClassLoader.getSystemClassLoader();
+        System.out.println(loader);
+        Class clazz = Person.class;
+        ClassLoader loder1 = clazz.getClassLoader();//自定义类是由系统加载器加载的
+        System.out.println(loder1);
+
+        String name = "java.lang.Object";
+        Class clazz1 = Class.forName(name);
+        ClassLoader loader2 = clazz1.getClassLoader();
+        System.out.println(loader2);
+
+        //有了ClassLoder之后，可以做什么
+        //系统加载配置文件
+        InputStream is = loader.getResourceAsStream("day19Reflection\\jdbc.properties");
+        Properties pros = new Properties();
+        pros.load(is);
+        String user = pros.getProperty("user");
+        System.out.println(user);
+        String password = pros.getProperty("password");
+        System.out.println(password);
+    }
+
 
     //获取Class的实例
     @Test

@@ -4,7 +4,9 @@ package day19Reflection;
  * Created by cdx on 2019/7/11.
  * desc:Perdon类
  */
-public class Person {
+
+@MyAnnotation(value="haha")
+public class Person extends Creature<String> implements Comparable,MyInterface {
     private static final String TAG = "Person";
     public String name;
     private int age;
@@ -55,5 +57,13 @@ public class Person {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+    class Bird{
+        
     }
 }
