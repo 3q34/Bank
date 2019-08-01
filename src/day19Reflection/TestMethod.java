@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.lang.reflect.Parameter;
 
 /**
  * Created by cdx on 2019/7/19.
@@ -30,11 +29,30 @@ public class TestMethod {
             Class rt = m2.getReturnType();
             System.out.println(rt.getName());//返回值类型
 
-            System.out.println( m2.getName());
+            System.out.println(m2.getName());
 
-          Class[] pr= m2.getParameterTypes();//参数
+            Class[] pr = m2.getParameterTypes();//参数
 
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
         }
+    }
+
+    //调用指定方法
+    @Test
+    public void test2() throws Exception {
+        Class clazz = Person.class;
+        Method m = clazz.getMethod("show");
+        Person p = (Person) clazz.newInstance();
+
+        Object returnval = m.invoke(p);
+
+        //静态方法调用
+        Method m2 = clazz.getMethod("info");
+        m2.invoke(Person.class);
+
+        //获取运行时类中private修饰的方法
+        Method m3 = clazz.getDeclaredMethod("display", String.class);
+        m3.setAccessible(true);
+        m3.invoke(p, "CHN");
     }
 }

@@ -39,4 +39,18 @@ public class TestField {
             System.out.println(Modifier.toString(i));
         }
     }
+
+    //获取运行时指定属性
+    //并为属性赋值
+    @Test
+    public void test3() throws Exception {
+        Class clazz = Person.class;
+        Field f = clazz.getField("name");
+        Person p = (Person) clazz.newInstance();
+        f.set(p, "Jerry");
+        Field f1=clazz.getDeclaredField("age");//private
+        f1.setAccessible(true);//设置为可访问的
+        f1.set(p,20);
+        System.out.println(p);
+    }
 }

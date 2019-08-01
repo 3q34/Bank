@@ -66,4 +66,7 @@ public class Person extends Creature<String> implements Comparable,MyInterface {
     class Bird{
         
     }
+    public static void info(){
+        System.out.println("我是静态方法");
+    }
 }

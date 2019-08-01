@@ -2,7 +2,6 @@ package day19Reflection;
 
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -19,7 +18,7 @@ public class TestReflection {
 
     //加载器
     @Test
-    public void test5() throws ClassNotFoundException, IOException {
+    public void test5() throws Exception {
         ClassLoader loader = ClassLoader.getSystemClassLoader();
         System.out.println(loader);
         Class clazz = Person.class;
