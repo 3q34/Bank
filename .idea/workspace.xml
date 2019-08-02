@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="Inetadress和TCPsocket">
-      <change afterPath="$PROJECT_DIR$/src/day20Net/TestTCP2.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="socket发送和接收文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20Net/TestTCP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20Net/TestTCP2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day20Net/TestTCP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="699">
+              <caret line="86" column="15" lean-forward="true" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,7 +219,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564729561082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564730386463" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -558,22 +558,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564717909497</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="socket发送和接收文件">
+      <created>1564729629074</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564729629074</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTCP2_client - 2019.08.02 at 15h 01m 31s.xml">
-      <configuration name="TestTCP2.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTCP2_client - 2019.08.02 at 15h 01m 55s.xml">
-      <configuration name="TestTCP2.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTCP2_server - 2019.08.02 at 15h 01m 55s.xml">
-      <configuration name="TestTCP2.server" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTCP2_client - 2019.08.02 at 15h 02m 34s.xml">
-      <configuration name="TestTCP2.client" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTCP2_client - 2019.08.02 at 15h 02m 47s.xml">
       <configuration name="TestTCP2.client" configurationId="JUnit" />
     </history-entry>
@@ -590,6 +585,18 @@
       <configuration name="TestTCP2.client" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestTCP2_server - 2019.08.02 at 15h 04m 42s.xml">
+      <configuration name="TestTCP2.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTCP2_client - 2019.08.02 at 15h 05m 34s.xml">
+      <configuration name="TestTCP2.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTCP2_server - 2019.08.02 at 15h 05m 35s.xml">
+      <configuration name="TestTCP2.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTCP2_client - 2019.08.02 at 15h 05m 54s.xml">
+      <configuration name="TestTCP2.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTCP2_server - 2019.08.02 at 15h 05m 54s.xml">
       <configuration name="TestTCP2.server" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -616,7 +623,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" weight="0.22142857" />
+      <window_info anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" weight="0.31428573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增集合用法" />
     <MESSAGE value="新增集合用法2" />
     <MESSAGE value="新增集合用法3~Set" />
     <MESSAGE value="新增集合用法4~TreeSet" />
@@ -704,7 +710,8 @@
     <MESSAGE value="Refection" />
     <MESSAGE value="Refection获取各属性" />
     <MESSAGE value="Inetadress和TCPsocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inetadress和TCPsocket" />
+    <MESSAGE value="socket发送和接收文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket发送和接收文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day20Net/TestTCP2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="699">
+          <caret line="86" column="15" lean-forward="true" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

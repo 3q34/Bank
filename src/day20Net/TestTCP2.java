@@ -16,11 +16,12 @@ public class TestTCP2 {
 
     @Test
     public void client() {
+        Socket client=null;
         InputStream is = null;
         OutputStream os = null;
         FileInputStream fis = null;
         try {
-            Socket client = new Socket(InetAddress.getByName("127.0.0.1"), 9090);
+            client = new Socket(InetAddress.getByName("127.0.0.1"), 9090);
             is = client.getInputStream();
             os = client.getOutputStream();
             fis = new FileInputStream(new File("D://1.txt"));
@@ -59,6 +60,12 @@ public class TestTCP2 {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+            if(client!=null)
+                try {
+                    client.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
         }
 
 
@@ -71,11 +78,12 @@ public class TestTCP2 {
         Socket client = null;
         OutputStream os = null;
         OutputStream os1 = null;
+        InputStream is=null;
         try {
             server = new ServerSocket(9090);
             client = server.accept();
             os = client.getOutputStream();
-            InputStream is = client.getInputStream();
+            is = client.getInputStream();
             os1 = new FileOutputStream(new File("D://2.txt"));
             byte[] b = new byte[30];
             int len;
@@ -96,6 +104,12 @@ public class TestTCP2 {
             if(os1!=null)
                 try {
                     os1.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            if(is!=null)
+                try {
+                    is.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
