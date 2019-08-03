@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="UDP socket发送和接收文件">
-      <change afterPath="$PROJECT_DIR$/src/day20Net/TestURL.java" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="URL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20Net/TestURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20Net/TestURL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day20Net/TestURL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,8 +172,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +180,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564741913728" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564801225130" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -540,31 +540,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564740304567</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="URL">
+      <created>1564741933194</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1564741933194</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUDP_server - 2019.08.02 at 17h 45m 28s.xml">
-      <configuration name="TestUDP.server" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_client - 2019.08.02 at 17h 45m 28s.xml">
-      <configuration name="TestUDP.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_client - 2019.08.02 at 17h 58m 35s.xml">
-      <configuration name="TestUDP.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_server - 2019.08.02 at 17h 58m 35s.xml">
-      <configuration name="TestUDP.server" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_server - 2019.08.02 at 18h 02m 15s.xml">
-      <configuration name="TestUDP.server" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_client - 2019.08.02 at 18h 02m 15s.xml">
-      <configuration name="TestUDP.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUDP_client - 2019.08.02 at 18h 03m 13s.xml">
-      <configuration name="TestUDP.client" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestUDP_server - 2019.08.02 at 18h 03m 13s.xml">
       <configuration name="TestUDP.server" configurationId="JUnit" />
     </history-entry>
@@ -572,6 +558,27 @@
       <configuration name="TestURL.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestURL_test - 2019.08.02 at 18h 28m 13s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.02 at 18h 31m 23s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 31m 24s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 34m 06s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 35m 51s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 37m 02s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 37m 17s.xml">
+      <configuration name="TestURL.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestURL_test - 2019.08.03 at 10h 59m 01s.xml">
       <configuration name="TestURL.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -597,7 +604,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3298217" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" weight="0.31428573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -661,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增集合用法3~Set" />
     <MESSAGE value="新增集合用法4~TreeSet" />
     <MESSAGE value="新增集合用法4~TreeSetan按照名字和生日排序" />
     <MESSAGE value="修改treeset位置" />
@@ -686,7 +692,8 @@
     <MESSAGE value="Inetadress和TCPsocket" />
     <MESSAGE value="socket发送和接收文件" />
     <MESSAGE value="UDP socket发送和接收文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="UDP socket发送和接收文件" />
+    <MESSAGE value="URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,13 +717,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="82" column="35" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1153,10 +1153,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1036" column="29" selection-start-line="1036" selection-start-column="29" selection-end-line="1036" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day20Net/TestURL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
