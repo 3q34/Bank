@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="URL">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21JDBC/Testjdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21JDBC/jdbc.properties" afterDir="false" />
+    <list default="true" id="297d7a1d-d489-4b41-8164-95e8554d5219" name="默认更改列表" comment="jdbc连接mysql">
+      <change afterPath="$PROJECT_DIR$/src/day21JDBC/TestDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day19Reflection/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/day19Reflection/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21JDBC/Testjdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21JDBC/Testjdbc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/day21JDBC/Testjdbc.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day21JDBC/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="42">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day21JDBC/TestDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day21JDBC/jdbc.properties">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day21JDBC/Testjdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day14/Enum/Season.java" />
         <option value="$PROJECT_DIR$/src/day14/Enum/TestSeason.java" />
         <option value="$PROJECT_DIR$/src/day14/TestEnum/TestSeason.java" />
         <option value="$PROJECT_DIR$/src/day14/TestEnum/TestEnum/TestSeason.java" />
@@ -138,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/day20Net/TestURL.java" />
         <option value="$PROJECT_DIR$/src/day19Reflection/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/day21JDBC/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/day21JDBC/TestDriverManager.java" />
         <option value="$PROJECT_DIR$/src/day21JDBC/Testjdbc.java" />
       </list>
     </option>
@@ -198,7 +207,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564977945816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564994277166" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
@@ -237,18 +246,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Testjdbc.test1">
-    <configuration name="TestUDP.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDriverManager.test">
+    <configuration name="TestDriverManager.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20Net.*" />
+          <option name="PATTERN" value="day21JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day20Net" />
-      <option name="MAIN_CLASS_NAME" value="day20Net.TestUDP" />
-      <option name="METHOD_NAME" value="client" />
+      <option name="PACKAGE_NAME" value="day21JDBC" />
+      <option name="MAIN_CLASS_NAME" value="day21JDBC.TestDriverManager" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDriver.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day21JDBC" />
+      <option name="MAIN_CLASS_NAME" value="day21JDBC.TestDriver" />
+      <option name="METHOD_NAME" value="getConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDriver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day21JDBC" />
+      <option name="MAIN_CLASS_NAME" value="day21JDBC.TestDriver" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDriver.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day21JDBC" />
+      <option name="MAIN_CLASS_NAME" value="day21JDBC.TestDriver" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -270,61 +327,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testjdbc.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21JDBC" />
-      <option name="MAIN_CLASS_NAME" value="day21JDBC.Testjdbc" />
-      <option name="METHOD_NAME" value="getConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testjdbc.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21JDBC" />
-      <option name="MAIN_CLASS_NAME" value="day21JDBC.Testjdbc" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testjdbc.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day21JDBC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day21JDBC" />
-      <option name="MAIN_CLASS_NAME" value="day21JDBC.Testjdbc" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Testjdbc.test1" />
-        <item itemvalue="JUnit.Testjdbc.getConnection" />
-        <item itemvalue="JUnit.Testjdbc.test" />
+        <item itemvalue="JUnit.TestDriverManager.test" />
+        <item itemvalue="JUnit.TestDriver.test1" />
+        <item itemvalue="JUnit.TestDriver.getConnection" />
+        <item itemvalue="JUnit.TestDriver.test" />
         <item itemvalue="JUnit.TestURL.test" />
-        <item itemvalue="JUnit.TestUDP.client" />
       </list>
     </recent_temporary>
   </component>
@@ -573,16 +582,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564803136235</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="jdbc连接mysql">
+      <created>1564977986079</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564977986079</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Testjdbc_test - 2019.08.05 at 11h 39m 22s.xml">
-      <configuration name="Testjdbc.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testjdbc_test - 2019.08.05 at 11h 40m 17s.xml">
-      <configuration name="Testjdbc.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Testjdbc_test - 2019.08.05 at 11h 41m 03s.xml">
       <configuration name="Testjdbc.test" configurationId="JUnit" />
     </history-entry>
@@ -606,6 +616,12 @@
     </history-entry>
     <history-entry file="Testjdbc_test1 - 2019.08.05 at 12h 01m 59s.xml">
       <configuration name="Testjdbc.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testjdbc_test1 - 2019.08.05 at 12h 05m 50s.xml">
+      <configuration name="Testjdbc.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDriverManager_test - 2019.08.05 at 15h 35m 41s.xml">
+      <configuration name="TestDriverManager.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -631,7 +647,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" x="386" y="130" width="625" height="411" id="Run" order="2" sideWeight="0.49918962" weight="0.31428573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增集合用法4~TreeSet" />
     <MESSAGE value="新增集合用法4~TreeSetan按照名字和生日排序" />
     <MESSAGE value="修改treeset位置" />
     <MESSAGE value="实验分支提交和合并" />
@@ -719,7 +734,8 @@
     <MESSAGE value="socket发送和接收文件" />
     <MESSAGE value="UDP socket发送和接收文件" />
     <MESSAGE value="URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL" />
+    <MESSAGE value="jdbc连接mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc连接mysql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,25 +759,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day16Thread/PrintNum1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day15IO/TestOtherStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day16Thread/TestThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1178,10 +1175,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="204" column="29" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day21JDBC/TestDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day21JDBC/Testjdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="252">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,7 +2,6 @@ package day21JDBC;
 
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Driver;
@@ -11,10 +10,10 @@ import java.util.Properties;
 
 /**
  * Created by cdx on 2019/8/4.
- * desc:
+ * desc:获取数据库连接的方法，Driver
  */
-public class Testjdbc {
-    private static final String TAG = "Testjdbc";
+public class TestDriver {
+    private static final String TAG = "TestDriver";
 
     @Test
     public void test() throws Exception {
@@ -47,6 +46,11 @@ public class Testjdbc {
             }
     }
 
+    /**
+     * Created by cdx on 2019/8/5.
+     * desc:通过配置文件获取jdbc属性
+     * 反射
+     */
     public Connection getConnection() {
         String driverClass = null;
         String jdbcUrl = null;
@@ -54,8 +58,6 @@ public class Testjdbc {
         String password = null;
         Connection connection = null;
         try {
-
-
             Properties properties = new Properties();
 
             InputStream is = this.getClass().getResourceAsStream("jdbc.properties");
@@ -65,6 +67,7 @@ public class Testjdbc {
             user = properties.getProperty("user");
             password = properties.getProperty("password");
 
+            //具体开发不使用Driver，使用DriverManager
             Driver driver = (Driver) Class.forName(driverClass).newInstance();
 
 
@@ -73,19 +76,11 @@ public class Testjdbc {
 
             info.put("user", user);
             info.put("password", password);
-
+            is.close();
             connection = driver.connect(jdbcUrl, info);
 
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         } finally {
             return connection;
