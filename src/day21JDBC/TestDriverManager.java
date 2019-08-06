@@ -16,6 +16,7 @@ import java.util.Properties;
 public class TestDriverManager {
     private static final String TAG = "TestDriverManager";
 
+
     @Test
     public void test() {
         String driverClass = null;
@@ -53,4 +54,43 @@ public class TestDriverManager {
             System.out.println(con);
         }
     }
+
+    public Connection getConnection() {
+        String driverClass = null;
+        String jdbcUrl = null;
+        String user = null;
+        String password = null;
+        Connection con = null;
+        try {
+            //配置文件获取参数信息
+            Properties properties = new Properties();
+            InputStream is = this.getClass().getResourceAsStream("jdbc.properties");
+            properties.load(is);
+            driverClass = properties.getProperty("driver");
+            jdbcUrl = properties.getProperty("url");
+            user = properties.getProperty("user");
+            password = properties.getProperty("password");
+            Properties info = new Properties();
+            info.put("user", user);
+            info.put("password", password);
+            is.close();
+            //加载数据库驱动（注册驱动）
+
+            //不再注册实例，是因为Driver类中有静态代码块已经实现了注册
+            // DriverManager.registerDriver((Driver) Class.forName(driverClass).newInstance());
+            Class.forName(driverClass);
+
+            //DriverManager优点：可以注册多个jdbc连接
+
+            //接口实现
+            con = DriverManager.getConnection(jdbcUrl, info);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            //System.out.println(con);
+            return con;
+        }
+    }
+
 }
