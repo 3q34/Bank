@@ -6,10 +6,10 @@ package day21JDBC;
  */
 public class Student {
     private static final String TAG = "Student";
-    int id;
-    String name;
-    int age;
-    String adress;
+    public int id;
+    public String name;
+    public int age;
+    public String address;
 
     public Student() {
         super();
@@ -19,7 +19,7 @@ public class Student {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.adress = adress;
+        this.address = adress;
     }
 
     public int getId() {
@@ -46,12 +46,12 @@ public class Student {
         this.age = age;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override
@@ -60,7 +60,7 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", adress='" + adress + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 

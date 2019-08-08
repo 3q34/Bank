@@ -44,11 +44,11 @@ public class TestResultSet {
         name = sc.nextLine();
         System.out.println("age:");
         age = sc.nextInt();
-        System.out.println("adress:");
+        System.out.println("address:");
         address = sc.next();
 
         String sql = "insert into student (name,age,address) values('" + name + "'," + age + ",'" + address + "')";
-         updateInfo(sql);
+        updateInfo(sql);
     }
 
     public static List<Student> getInfo(String sql) {
@@ -57,8 +57,8 @@ public class TestResultSet {
         Statement statement = null;
         ResultSet resultSet = null;
         try {
-            TestDriverManager td = new TestDriverManager();
-            con = td.getConnection();
+            //TestDriverManager td = new TestDriverManager();
+            con = JDBCTools.getConnection();
 
             //获取SQL语句的statement对象
 
@@ -71,33 +71,37 @@ public class TestResultSet {
                 stu.id = resultSet.getInt(1);
                 stu.name = resultSet.getString(2);
                 stu.age = resultSet.getInt(3);
-                stu.adress = resultSet.getString(4);
+                stu.address = resultSet.getString(4);
                 list.add(stu);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            if (resultSet != null)
-                try {
-                    resultSet.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            if (statement != null)
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            if (con != null)
-                try {
-                    con.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            releaseDB(con, statement, resultSet);
             return list;
         }
 
+    }
+
+    private static void releaseDB(Connection con, Statement statement, ResultSet resultSet) {
+        if (resultSet != null)
+            try {
+                resultSet.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        if (statement != null)
+            try {
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        if (con != null)
+            try {
+                con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
     }
 
     public static void updateInfo(String sql) {
@@ -114,25 +118,14 @@ public class TestResultSet {
             statement = con.createStatement();
 
             int s = statement.executeUpdate(sql);
-            if(s>0) {
+            if (s > 0) {
                 System.out.println("新增数据成功");
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
 
-            if (statement != null)
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            if (con != null)
-                try {
-                    con.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            releaseDB(con, statement, null);
         }
 
     }
