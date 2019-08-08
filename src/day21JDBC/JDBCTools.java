@@ -166,12 +166,21 @@ public class JDBCTools {
 
             while (resultSet.next()) {
                 HashMap<String, Object> hashMap = new HashMap<String, Object>();
-                //通过解析sql语句，判断含有的字段
-                String str = subString(sql, "select", "from").replace(" ", "");
-                String[] strings = str.split(",");
-                for (int i = 0; i < strings.length; i++) {
-                    hashMap.put(strings[i], resultSet.getObject(i + 1));
+                //另外一种获取字段名称的方法是：ResultSetMetaData对象的getXX方法
+                ResultSetMetaData rsmd = resultSet.getMetaData();
+                for (int i = 0; i < rsmd.getColumnCount(); i++) {
+                    String columnName = rsmd.getColumnLabel(i + 1);//注意：index从1开始
+                    Object columnValue = resultSet.getObject(columnName);
+                    hashMap.put(columnName, columnValue);
                 }
+
+
+                //通过解析sql语句，判断含有的字段
+//                String str = subString(sql, "select", "from").replace(" ", "");
+//                String[] strings = str.split(",");
+//                for (int i = 0; i < strings.length; i++) {
+//                    hashMap.put(strings[i], resultSet.getObject(i + 1));
+//                }
                 entity = clazz.newInstance();
                 for (HashMap.Entry<String, Object> obj : hashMap.entrySet()) {
                     Field field = null;
