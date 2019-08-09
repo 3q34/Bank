@@ -10,16 +10,18 @@ public class Student {
     public String name;
     public int age;
     public String address;
+    public String password;
 
     public Student() {
         super();
     }
 
-    public Student(int id, String name, int age, String adress) {
+    public Student(int id, String name, int age, String address, String password) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.address = adress;
+        this.address = address;
+        this.password = password;
     }
 
     public int getId() {
@@ -54,6 +56,14 @@ public class Student {
         this.address = address;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -61,7 +71,7 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", address='" + address + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
-
 }
