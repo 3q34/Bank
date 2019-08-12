@@ -1,7 +1,7 @@
 package day22DAO;
 
 import day21JDBC.JDBCTools;
-import jdk.nashorn.internal.scripts.JD;
+
 import org.junit.Test;
 
 import java.sql.Connection;

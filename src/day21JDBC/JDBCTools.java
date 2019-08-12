@@ -220,4 +220,39 @@ public class JDBCTools {
         String result = str.substring(strStartIndex, strEndIndex).substring(strStart.length());
         return result;
     }
+
+    //提交事务
+    public static void commit(Connection con) {
+        if (con != null) {
+            try {
+                con.commit();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    //回滚事务
+    public static void roolback(Connection con) {
+        if (con != null) {
+            try {
+                con.rollback();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    //开始事务
+    public static void beginTx(Connection con) {
+        if (con != null) {
+            try {
+                con.setAutoCommit(false);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 }
