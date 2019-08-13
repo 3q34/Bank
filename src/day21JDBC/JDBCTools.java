@@ -1,6 +1,9 @@
 package day21JDBC;
 
 
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+import javax.sql.DataSource;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.sql.*;
@@ -16,6 +19,16 @@ import java.util.Properties;
  */
 public class JDBCTools {
     private static final String TAG = "JDBCTools";
+
+    private static DataSource dataSource = null;
+
+    static {
+        dataSource = new ComboPooledDataSource("mySource");
+    }
+
+    public static Connection getConnection1() throws SQLException {
+        return dataSource.getConnection();
+    }
 
     /**
      * 数据库连接方法
