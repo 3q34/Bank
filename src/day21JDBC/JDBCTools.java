@@ -26,6 +26,9 @@ public class JDBCTools {
         dataSource = new ComboPooledDataSource("mySource");
     }
 
+    public static DataSource getDataSource() {
+        return dataSource;
+    }
     public static Connection getConnection1() throws SQLException {
         return dataSource.getConnection();
     }
