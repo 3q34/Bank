@@ -2,6 +2,7 @@ package day24DbUtils;
 
 import day21JDBC.JDBCTools;
 import day21JDBC.Student;
+import org.apache.commons.dbutils.QueryLoader;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.ResultSetHandler;
 import org.apache.commons.dbutils.handlers.*;
@@ -9,6 +10,8 @@ import org.apache.commons.dbutils.handlers.*;
 import org.junit.Test;
 
 import javax.sql.DataSource;
+import java.io.IOException;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
@@ -61,7 +64,23 @@ public class TestDBUtils {
             // Handle it
         }
     }
+    @Test
+    public void test() {
+        DataSource dataSource = JDBCTools.getDataSource();
 
+        QueryRunner run = new QueryRunner();
+
+        try {
+            Connection con=dataSource.getConnection();
+            //BeanHandler:将结果集的第一条数据转为 “创建BeanHandler对象时 传入的Class参数 所对应的对象”
+            //ResultSetHandler<Student> h = new BeanHandler<>(Student.class);
+            Student p = run.query(con,
+                    "SELECT * FROM student WHERE name=?", new BeanHandler<>(Student.class), "John Doe");
+            System.out.println(p);
+        } catch (Exception sqle) {
+            // Handle it
+        }
+    }
     /**
      * BeanListHandler：对象的集合（javaBean的集合）
      */
@@ -156,5 +175,20 @@ public class TestDBUtils {
         } catch (Exception sqle) {
             // Handle it
         }
+    }
+
+    /**
+     * QueryLoader:加载存放s语句的资料文档
+     */
+    @Test
+    public void testQueryLoader() {
+        try {
+            Map<String, String> sqls = QueryLoader.instance().load("/sql.properties");
+            String sql = sqls.get("UPDATE_STUDENT");
+            System.out.println(sql);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
