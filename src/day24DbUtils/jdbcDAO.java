@@ -41,11 +41,30 @@ public class jdbcDAO<T> implements DAO<T> {
     }
 
     @Override
+    /*
+     * @Author cdx
+     * @param con :
+     * @param sql :
+     * @param args :
+     * @return java.util.List<T>
+     * @throws
+     * @Date 2019/8/14 18:01
+     */
     public List<T> getList(Connection con, String sql, Object... args) throws SQLException {
         return runner.query(con, sql, new BeanListHandler<>(type), args);
     }
 
     @Override
+    /*
+     * @Author cdx
+     * @param con :
+     * @param sql :
+     * @param args :
+     * @return java.util.Map<java.lang.String,java.lang.Object>
+     * @throws
+     * @Date 2019/8/14 17:55
+     */
+
     public Map<String, Object> getMap(Connection con, String sql, Object... args) throws SQLException {
         return runner.query(con, sql, new MapHandler(), args);
     }
