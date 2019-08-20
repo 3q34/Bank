@@ -19,20 +19,21 @@ import static org.junit.Assert.*;
  */
 public class StudentDAOTest {
     StudentDAO studentDAO = new StudentDAO();
-    DataSource dataSource = JDBCTools.getDataSource();
-    Connection con = null;
+    //DataSource dataSource = JDBCTools.getDataSource();
+    Connection con = JDBCTools.getConnection1();
+
+    public StudentDAOTest() throws SQLException {
+    }
 
     @Test
     public void getValue() throws SQLException {
         String sql = "select name from student where id=? ";
-        con = dataSource.getConnection();
         String result = studentDAO.getValue(con, sql, 8);
         System.out.println(result);
     }
 
     @Test
     public void getObject() throws SQLException {
-        con = dataSource.getConnection();
         String sql = "select * from student where id=?";
         Student result = studentDAO.getObject(con, sql, 9);
 
@@ -41,7 +42,6 @@ public class StudentDAOTest {
 
     @Test
     public void update() throws SQLException {
-        con = dataSource.getConnection();
         String sql = "insert student (name,age)values (?,?)";
         int result = studentDAO.update(con, sql, "哪吒", 9);
 
@@ -51,7 +51,6 @@ public class StudentDAOTest {
     @Test
     public void getList() throws SQLException {
         String sql = "select * from student where id=? or id=?";
-        con = dataSource.getConnection();
         List<Student> result = studentDAO.getList(con, sql, 8, 9);
         System.out.println(result);
     }
@@ -59,7 +58,6 @@ public class StudentDAOTest {
     @Test
     public void getMap() throws SQLException {
         String sql = "select * from student where id=? ";
-        con = dataSource.getConnection();
         Map<String, Object> result = studentDAO.getMap(con, sql, 8);
         System.out.println(result);
     }
